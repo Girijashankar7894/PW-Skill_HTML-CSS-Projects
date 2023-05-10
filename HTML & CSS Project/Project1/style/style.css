@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+}
+
+.nav-menu > ul {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu > ul > li > a:hover {
+    font-weight: 600;
+    color: teal;
+    text-decoration: underline;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-search > input {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border-style: solid;
+}
+
+.nav-search > input:focus {
+    border: 2px solid teal;
+}
+
+button {
+    font-weight: 600;
+    padding: 0.5rem;
+    background-color: teal;
+    color: white;
+    border: 2px solid teal;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Hero Section */
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem;
+}
+
+.hero-left-section span {
+    color: teal;
+    font-weight: 900;
+}
+
+.hero-left-section > h1 {
+    margin-bottom: 1rem;
+}
+
+.hero-left-section > h1 > span {
+    font-size: 2rem;
+}
+
+.hero-left-section > p {
+    font-weight: 600;
+}
+
+.hero-left-section > p > span {
+    font-size: 1.2rem;
+}
+
+.hero-right-section {
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-right-section > img {
+    width: 80%;
+    height: 80%;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 900;
+    padding: 2rem;
+}
+
+.footer-right-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer-right-section > div > a {
+    color: black;
+}
+
+.fa-github:hover {
+    color: gray;
+}
+
+.fa-linkedin:hover {
+    color: blue;
+}
+
+.fa-instagram:hover {
+    color: purple;
+}
